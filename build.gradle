@@ -25,7 +25,9 @@ eclipse {
         name = "Dynmap"
     }
 }
-
+tasks.shadowJar {
+    enabled = false
+}
 allprojects  {
   repositories {
      mavenLocal()
