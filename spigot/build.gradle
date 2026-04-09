@@ -109,6 +109,9 @@ dependencies {
     implementation(project(':bukkit-helper-121-11')) {
         transitive = false
     }
+    implementation(project(':bukkit-helper-26-1')) {
+        transitive = false
+    }
 }
 
 processResources {
